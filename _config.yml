@@ -5,9 +5,9 @@ url: "https://www.hvdveer.nl"
 nav:
   main:
     writing: "/writing"
-    speaking: "/speaking"
+    teaching: "/teaching"
     projects: "/projects"
-    photos: "profile-photos/profile_pic_hvdveer.jpg"
+    photos: "/photos"
   writing:
     all: "/writing"
     popular: "/writing/popular"
