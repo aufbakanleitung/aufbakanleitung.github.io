@@ -28,14 +28,14 @@ contact_urls:
     url: "https://www.linkedin.com/in/hvdveer"
     label: "LinkedIn"
     icon: "linkedin-square"
-  facebook:
-    url: "https://www.facebook.com/Herman.van.der.Veer"
-    label: "Facebook"
-    icon: "facebook-square"
   github:
     url: "https://github.com/aufbakanleitung"
     label: "GitHub"
     icon: "github-square"
+  quora:
+    url: "https://www.quora.com/profile/Herman-van-der-Veer"
+    label: "Quora"
+    icon: "quora-logo"
   email:
     url: "mailto:hvdveer@gmail.com"
     label: "Email"

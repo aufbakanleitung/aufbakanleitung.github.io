@@ -1,0 +1,32 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t hvdveer/website .
+
+script:
+  # Test de build
+  # - docker run -e CI=true hvdveer/react-test npm run test -- --watchAll=false
+
+after_success:
+  # Login to the Docker CLI
+  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_ID" --password-stdin
+  # Take the image and push them to docker hub
+  - docker push hvdveer/website 
+
+
+deploy :
+  provider: elasticbeanstalk
+  region: us-east-2
+  app: multi-docker
+  env: MultiDocker-env
+  bucket_name: elasticbeanstalk-us-east-2-331730032056
+  bucket_path: docker-multi
+  on:
+    branch: master
+  access_key_id:  $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: $AWS_SECRET_KEY
+
+
