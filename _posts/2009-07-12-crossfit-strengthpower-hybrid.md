@@ -2,7 +2,7 @@
 layout: post
 title: Crossfit Strength/Power Hybrid
 date: '2009-07-12T20:54:00.000-07:00'
-author: Yevgeniy Brikman
+author: Herman van der Veer
 tags:
 - Crossfit
 - Health and Fitness

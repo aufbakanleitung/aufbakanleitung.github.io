@@ -2,7 +2,7 @@
 layout: post
 title: Hello, Startup
 date: '2015-02-11T11:41:00.000-08:00'
-author: Yevgeniy Brikman
+author: Herman van der Veer
 tags:
 - Startups
 - Writing
